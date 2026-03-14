@@ -129,7 +129,7 @@ Peak concurrent LLM calls: **2** → well within 10 RPM free limit.
 | Variable | Default | Description |
 |---|---|---|
 | `VITE_GEMINI_API_KEY` | *(required)* | Your Google AI Studio API key |
-| `VITE_GEMINI_MODEL` | `gemini-2.5-flash-preview-04-17` | Gemini model to use |
+| `VITE_GEMINI_MODEL` | `gemini-2.5-flash` | Gemini model to use |
 | `VITE_GEMINI_MAX_TOKENS` | `8192` | Max tokens per response |
 | `VITE_GEMINI_TEMPERATURE` | `0.15` | Lower = more deterministic |
 | `VITE_RAG_CHUNK_SIZE` | `500` | Words per document chunk |
